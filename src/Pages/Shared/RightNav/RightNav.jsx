@@ -16,7 +16,7 @@ import bg from "../../../assets/bg.png";
 const RightNav = () => {
   return (
     <div>
-      <h4>Login With</h4>
+      <h4 className="mt-4">Login With</h4>
       <Button className="mb-2" variant="outline-primary">
         <FaGoogle className="mx-1" />
         Login With Google
@@ -27,7 +27,7 @@ const RightNav = () => {
       </Button>
 
       <div>
-        <h4 className="mt-2">Find us on</h4>
+        <h4 className="mt-4">Find us on</h4>
         <ListGroup as="ul">
           <ListGroup.Item as="li">
             <FaFacebook className="mx-2" />
@@ -45,7 +45,7 @@ const RightNav = () => {
       </div>
       <QZone></QZone>
       <div>
-      <h4>Login With</h4>
+      <h4 className="mt-4">Login With</h4>
         <Card className="bg-dark text-white">
           <Card.Img src={bg} alt="Card image" />
           <Card.ImgOverlay>
