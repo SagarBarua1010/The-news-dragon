@@ -45,6 +45,7 @@ const RightNav = () => {
       </div>
       <QZone></QZone>
       <div>
+      <h4>Login With</h4>
         <Card className="bg-dark text-white">
           <Card.Img src={bg} alt="Card image" />
           <Card.ImgOverlay>
